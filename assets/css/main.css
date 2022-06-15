@@ -1,3 +1,23 @@
-h1 {
-  font-family: "Helvetica"
+* {
+  Font-family: "Segoe UI", sans-serif, Arial;
+}
+
+:root {
+  /* Light */
+  --light1: #F47119;
+  --light2: #F5F5F5;
+  --light3: #353535;
+  --light4: #FFFFFF;
+  --light5: #FF9900;
+  --light6: #646464;
+  --light7: #F6F6F6;
+
+  /* Dark */
+  --dark1: #F47119;
+  --dark2: #1A2634;
+  --dark3: #FFFFFF;
+  --dark4: #0C1826;
+  --dark5: #DADADA;
+  --dark6: #FF9900;
+  --dark7: #040615;
 }
