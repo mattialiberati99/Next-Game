@@ -1,5 +1,6 @@
 <template>
     <header class="flex flex-col justify-start	">
+        <horizontalHeaderSectionLogo />
         <horizontalHeaderButton to="/home" name="Profile" notification="120" isActive=true />
         <horizontalHeaderSectionTitle title="ciao" />
         <horizontalHeaderButton to="/hodme" name="Favourite" notification="2" />
