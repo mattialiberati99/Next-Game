@@ -17,7 +17,7 @@
     padding: 8px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-
+    transition:background-color 0.4s;
 }
 
 .buttonHeader:hover {
@@ -67,7 +67,7 @@ export default {
     props: {
         to: String,
         name: String,
-        notification: Number,
+        notification: Number | String,
         icon: String
     }
 }
