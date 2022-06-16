@@ -1,9 +1,9 @@
 <template>
     <header class="flex flex-col justify-start	">
-        <horizontalHeaderButton to="/home" name="Profile" notification="2" />
+        <horizontalHeaderButton to="/home" name="Profile" notification="120" isActive=true />
         <horizontalHeaderSectionTitle title="ciao" />
         <horizontalHeaderButton to="/hodme" name="Favourite" notification="2" />
-        <horizontalHeaderButton to="/hodme" name="dsa" notification="2" />
+        <horizontalHeaderButton to="/hodme" name="dsa"  />
     </header>
 </template>
 
