@@ -3,7 +3,7 @@
         <div class="flex flex-row items-center buttonHeader">
             <div class="icon"></div>
             <h1 class="text">{{ name }}</h1>
-            <div v-if="notification" class="notification ">
+            <div v-if="notification" class="notification flex justify-center items-center">
                 <h4>{{ notification }}</h4>
             </div>
         </div>
@@ -17,11 +17,12 @@
     padding: 8px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    
+
 }
+
 .buttonHeader:hover {
     background-color: #64646434;
-    
+
 
 }
 
@@ -31,7 +32,7 @@
     border-radius: 100%;
     background-color: var(--light6);
     margin-left: 25px;
-    margin-right:20px ;
+    margin-right: 20px;
 }
 
 .buttonHeader h1 {
@@ -47,15 +48,11 @@
 }
 
 .buttonHeader .notification {
-
     width: 18px;
     height: 18px;
     padding: 1px;
     border-radius: 100%;
     background-color: var(--light1);
-   display: flex; /* or inline-flex */
-  align-items: center; 
-  justify-content: center;
 }
 
 .buttonHeader .notification h4 {
