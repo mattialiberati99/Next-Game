@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <CardProduct />
-  </div>
+  <Header />
 </template>
 
 <script>
-import CardProduct from '../components/CardProduct/CardProduct.vue';
+import NuxtLogo from '../components/NuxtLogo.vue';
+import Header from '../components/horizontalHeader/Header.vue';
 export default {
     name: "IndexPage",
-    components: { CardProduct }
+    components: { NuxtLogo, Header }
+
 }
 </script>
