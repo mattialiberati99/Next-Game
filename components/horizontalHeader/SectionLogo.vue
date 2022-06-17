@@ -92,6 +92,7 @@
   justify-content: space-between;
   height: 24px;
   width: 24px;
+  margin-left: -6px;
   cursor: pointer;
 }
 
