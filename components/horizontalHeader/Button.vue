@@ -93,7 +93,7 @@ export default {
         name: String,
         notification: Number | String,
         icon: String,
-        isActive: Boolean
+        isActive: String
     }
 }
 </script>
