@@ -1,11 +1,11 @@
 <template>
-    <header class="flex flex-col justify-start	">
+    <header class="flex flex-col justify-start	" style="overflow-y: auto;overflow-x: hidden;">
         <horizontalHeaderSectionLogo />
         <horizontalHeaderButton to="/home" name="Home" :notification="notify['Home']" />
         <horizontalHeaderSectionTitle title="account" />
         <horizontalHeaderButton to="/profile" name="Profile" :notification="notify['Profile']" />
         <horizontalHeaderButton to="/favourite" name="Favourite" :notification="notify['Favourite']" />
-        <horizontalHeaderButton to="/chat" name="Chat" :notification="notify['Chat']" />
+        <horizontalHeaderButton to="/chats" name="Chats" :notification="notify['Chats']" />
         <horizontalHeaderButton to="/friends" name="Friends" :notification="notify['Friends']" />
         <horizontalHeaderButton to="/wallet" name="Wallet" :notification="notify['Wallet']" />
         <horizontalHeaderSectionTitle title="main" />

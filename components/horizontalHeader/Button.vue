@@ -1,7 +1,9 @@
 <template>
     <NuxtLink :to="to" style="width:calc(100% - 10px);">
         <div class="flex flex-row items-center buttonHeader" v-bind:class="isActive ? 'active' : ''">
-            <div class="icon"></div>
+            <img v-if="!isActive" v-bind:src="'/icons/'+to+'.svg'" class="icon" >
+            <img v-else v-bind:src="'/icons/'+to+'Solid.svg'" class="icon">
+
             <h1 class="text">{{ name }}</h1>
             <div v-if="notification" class="notification flex justify-center items-center">
                 <h4>{{ notification > 99 ? 99 : notification }}</h4>
@@ -38,8 +40,6 @@
 
 .buttonHeader:hover {
     background-color: #64646434;
-
-
 }
 
 .buttonHeader.active:hover {
@@ -49,14 +49,15 @@
 .buttonHeader .icon {
     width: 24px;
     height: 24px;
-    border-radius: 100%;
-    background-color: var(--light6);
+   
     margin-left: 25px;
     margin-right: 20px;
+    filter: invert(36%) sepia(0%) saturate(2829%) hue-rotate(137deg) brightness(103%) contrast(80%);
+    -webkit-filter: invert(36%) sepia(0%) saturate(2829%) hue-rotate(137deg) brightness(103%) contrast(80%);
 }
 
 .buttonHeader.active .icon {
-    background-color: var(--light1);
+   filter:invert(64%) sepia(62%) saturate(5282%) hue-rotate(353deg) brightness(100%) contrast(92%);
 }
 
 .buttonHeader h1 {
@@ -65,6 +66,7 @@
 
 .buttonHeader .text {
     width: 23%;
+    
     color: var(--light6);
     font-weight: 600;
     font-size: 14px;
@@ -94,6 +96,11 @@ export default {
         notification: Number | String,
         icon: String,
         isActive: String
+    },
+    data (){
+        return {
+            color:`../../icons/user.svg`
+        }
     }
 }
 </script>
