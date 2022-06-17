@@ -1,21 +1,21 @@
 <template>
     <header class="flex flex-col justify-start	">
         <horizontalHeaderSectionLogo />
-        <horizontalHeaderButton to="/home" name="Home" />
+        <horizontalHeaderButton to="/home" name="Home" :notification="notify['Home']" />
         <horizontalHeaderSectionTitle title="account" />
-        <horizontalHeaderButton to="/profile" name="Profile" />
-        <horizontalHeaderButton to="/favourite" name="Favourite" notification="15" />
-        <horizontalHeaderButton to="/chat" name="Chat" />
-        <horizontalHeaderButton to="/friends" name="Friends" />
-        <horizontalHeaderButton to="/wallet" name="Wallet" />
+        <horizontalHeaderButton to="/profile" name="Profile" :notification="notify['Profile']" />
+        <horizontalHeaderButton to="/favourite" name="Favourite" :notification="notify['Favourite']" />
+        <horizontalHeaderButton to="/chat" name="Chat" :notification="notify['Chat']" />
+        <horizontalHeaderButton to="/friends" name="Friends" :notification="notify['Friends']" />
+        <horizontalHeaderButton to="/wallet" name="Wallet" :notification="notify['Wallet']" />
         <horizontalHeaderSectionTitle title="main" />
-        <horizontalHeaderButton to="/store" name="Store" isActive="true" />
-        <horizontalHeaderButton to="/market" name="market" />
-        <horizontalHeaderButton to="/streams" name="Streams" />
-        <horizontalHeaderButton to="/community" name="Community" />
+        <horizontalHeaderButton to="/store" name="Store" isActive="true" :notification="notify['Store']" />
+        <horizontalHeaderButton to="/market" name="market" :notification="notify['market']" />
+        <horizontalHeaderButton to="/streams" name="Streams" :notification="notify['Streams']" />
+        <horizontalHeaderButton to="/community" name="Community" :notification="notify['Community']" />
         <horizontalHeaderSectionTitle title="support" />
-        <horizontalHeaderButton to="/report" name="Report" />
-        <horizontalHeaderButton to="/help" name="Help" />
+        <horizontalHeaderButton to="/report" name="Report" :notification="notify['Report']" />
+        <horizontalHeaderButton to="/help" name="Help" :notification="notify['Help']" />
     </header>
 </template>
 
@@ -27,3 +27,12 @@ header {
     border-right: 1px solid #f2f2f2;
 }
 </style>
+<script>
+export default {
+    data() {
+        return {
+            notify: { Favourite: 12 }
+        }
+    }
+}
+</script>
