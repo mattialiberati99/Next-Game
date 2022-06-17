@@ -1,11 +1,13 @@
 <template>
   <div>
-    <h1>Test</h1>
+    <CardProduct />
   </div>
 </template>
 
 <script>
+import CardProduct from '../components/CardProduct/CardProduct.vue';
 export default {
-  name: 'IndexPage'
+    name: "IndexPage",
+    components: { CardProduct }
 }
 </script>
