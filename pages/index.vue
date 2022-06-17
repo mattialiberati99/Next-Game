@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1>Test</h1>
-  </div>
+  <GameStore />
 </template>
 
 <script>
