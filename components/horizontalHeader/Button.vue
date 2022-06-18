@@ -50,7 +50,7 @@
     width: 24px;
     height: 24px;
    
-    margin-left: 25px;
+    margin-left: 25px;/*+8*/ 
     margin-right: 20px;
     filter: invert(36%) sepia(0%) saturate(2829%) hue-rotate(137deg) brightness(103%) contrast(80%);
     -webkit-filter: invert(36%) sepia(0%) saturate(2829%) hue-rotate(137deg) brightness(103%) contrast(80%);
