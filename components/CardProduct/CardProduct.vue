@@ -1,25 +1,25 @@
 <template>
     <div class="card">
-        <img :src="pathImgCard" class="imgCardProduct" :alt="nameProduct" />
+        <img :src="item.pathImgCard" class="imgCardProduct" :alt="item.nameProduct" />
         <div class="container-product">
-            <h3 class="titleCard"><b>{{nameProduct}}</b></h3>
+            <h3 class="titleCard"><b>{{item.nameProduct}}</b></h3>
             <div class="container-categoriesCard">
-                <p class="categoriesCard">{{categories1}}</p>
+                <p class="categoriesCard">{{item.categories1}}</p>
                 <span class="dot"></span> 
-                <p class="categoriesCard">{{categories2}}</p>
+                <p class="categoriesCard">{{item.categories2}}</p>
             </div>
-            <span class="valutationCard">{{valutation}}</span> 
-            <span class="starCard">{{star}}</span>
-            <span class="priceCard"><b>{{price}}</b></span>
+            <span class="valutationCard">{{item.valutation}}</span> 
+            <span class="starCard">⭐</span>
+            <span class="priceCard"><b>{{item.price}}</b></span>
             <div class="container-logos-img-Carduser">
                 <div class="system-operator-logos">
                    <img class="img-windows" src="../../assets/icons/windows.svg" alt="logo windows">
                    <img class="img-apple" src="../../assets/icons/apple.svg" alt="logo apple">
                 </div>
                 <div class="container-img-cardUser">
-                    <img :src="imgUser" alt="">
-                    <img :src="imgUser" alt="">
-                    <img :src="imgUser" alt="">
+                    <img :src="item.imgUser" alt="">
+                    <img :src="item.imgUser" alt="">
+                    <img :src="item.imgUser" alt="">
                 </div>
             </div>
         </div>
@@ -28,27 +28,20 @@
 
 <script>
 export default {
+    props: ["item"],
     data(){
-        return{
-           pathImgCard: "https://cdn-www.bluestacks.com/bs-images/Featured_com.gtarcade.ioe_.global.jpg",
-           nameProduct: "Infinity Kingdom",
-           categories1: "Strategy",
-           categories2: "Platform",
-           valutation: 4.5,
-           star: "⭐",
-           price: "Free",
-           imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
-        }
+        return{}
     }
 }
 </script>
 
 <style>
 .card {
-    margin: 50px auto;
-    width: 258px;
+    background-color: rgb(255, 255, 255);
+    max-width: 258px;
     padding: 10px;
     border-radius: 25px;
+    margin-top: 20px;
 }
 
 .imgCardProduct {
@@ -73,8 +66,7 @@ export default {
 }
 
 .valutationCard,
-.categoriesCard,
-.priceCard{
+.categoriesCard{
     color: #767676;
     font-size: 14px;
     line-height: 19px;
@@ -90,6 +82,7 @@ export default {
 }
 
 .priceCard {
+    font-size: 14px;
     color: #616161;
 }
 
@@ -116,7 +109,7 @@ export default {
 
 .container-img-cardUser > img {
     border-radius: 50%;
-    margin-right: 2px;
+    margin-right: -2px;
 }
 
 </style>
