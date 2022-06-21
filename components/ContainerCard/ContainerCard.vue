@@ -1,5 +1,5 @@
 <template>
-  <div class="container-card grid grid-cols-4 gap-4">
+  <div class="container-card">
       <CardProduct v-for="card in cards" v-bind:item="card" :key="card.id"/>
   </div>
 </template>
@@ -104,13 +104,13 @@ export default {
     }
 }
 </script>
-
+            
 <style>
 
-/* .container-card {     
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; *
- } */
+.container-card {     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 </style>

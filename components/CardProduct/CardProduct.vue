@@ -108,8 +108,9 @@ export default {
 }
 
 .container-img-cardUser > img {
+    border: 2px solid white;
     border-radius: 50%;
-    margin-right: -2px;
+    margin-right: -5px;
 }
 
 </style>
