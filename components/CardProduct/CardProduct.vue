@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <!-- <div class="card">
         <img :src="item.pathImgCard" class="imgCardProduct" :alt="item.nameProduct" />
         <div class="container-product">
             <h3 class="titleCard"><b>{{item.nameProduct}}</b></h3>
@@ -23,6 +23,22 @@
                 </div>
             </div>
         </div>
+    </div> -->
+    <div class="rounded-3xl h-75 w-64 p-3 bg-gray-50">
+        <img class="w-full rounded-3xl w-60 h-48 object-cover" :src="item.pathImgCard" alt="Sunset in the mountains" />
+        <div class="px-6 py-4">
+          <h2 class="font-bold text-l mb-2">{{item.nameProduct}}</h2>
+          <div class="flex text-sm">
+            <p>{{item.categories1}}</p>
+            <span class="dot"></span>
+            <p>{{item.categories2}}</p>
+          </div>
+          <div class="flex text-sm">
+            <p>{{item.valutation}}</p>
+            <p>⭐</p>
+            <h3 class="price">{{item.price}}</h3>
+          </div>
+        </div>
     </div>
 </template>
 
@@ -36,6 +52,7 @@ export default {
 </script>
 
 <style>
+/* 
 .card {
     background-color: rgb(255, 255, 255);
     max-width: 258px;
@@ -111,6 +128,25 @@ export default {
     border: 2px solid white;
     border-radius: 50%;
     margin-right: -5px;
+} */
+
+.flex {
+    align-items: center;
+    color: #767676;
 }
 
-</style>
+.price {
+    color: #616161;
+}
+
+.dot{
+    border-radius: 50%;
+    display: block;
+    background-color: #767676;
+    width: 3px;
+    height: 2.96px;
+    margin: 0 10px 0 10px;
+}
+
+</style> 
+

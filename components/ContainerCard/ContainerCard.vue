@@ -19,86 +19,86 @@ export default {
                     price: "Free",
                     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
                 },
-                {
-                    id: 2,
-                    pathImgCard: "https://cdn.akamai.steamstatic.com/steam/apps/975270/header.jpg?t=1626291858",
-                    nameProduct: "Legion War",
-                    categories1: "Strategy",
-                    categories2: "Adventure",
-                    valutation: 4.1,
-                    price: "$9.99 USD",
-                    imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
-                },
-                {
-                    id: 3,
-                    pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
-                    nameProduct: "Warpips",
-                    categories1: "Strategy",
-                    categories2: "Tower Defence",
-                    valutation: 4.5,
-                    price: "$11.99 USD",
-                    imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
-                },
-                {
-                    id: 4,
-                    pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
-                    nameProduct: "Warpips",
-                    categories1: "Strategy",
-                    categories2: "Tower Defence",
-                    valutation: 4.5,
-                    price: "$11.99 USD",
-                    imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
-                },
-                {
-                    id: 5,
-                    pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
-                    nameProduct: "Warpips",
-                    categories1: "Strategy",
-                    categories2: "Tower Defence",
-                    valutation: 4.5,
-                    price: "$11.99 USD",
-                    imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
-                },
-                {
-                    id: 6,
-                    pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
-                    nameProduct: "Warpips",
-                    categories1: "Strategy",
-                    categories2: "Tower Defence",
-                    valutation: 4.5,
-                    price: "$11.99 USD",
-                    imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
-                },
-                {
-                    id: 7,
-                    pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
-                    nameProduct: "Warpips",
-                    categories1: "Strategy",
-                    categories2: "Tower Defence",
-                    valutation: 4.5,
-                    price: "$11.99 USD",
-                    imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
-                },
-                {
-                    id: 8,
-                    pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
-                    nameProduct: "Warpips",
-                    categories1: "Strategy",
-                    categories2: "Tower Defence",
-                    valutation: 4.5,
-                    price: "$11.99 USD",
-                    imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
-                },
-                {
-                    id: 9,
-                    pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
-                    nameProduct: "Warpips",
-                    categories1: "Strategy",
-                    categories2: "Tower Defence",
-                    valutation: 4.5,
-                    price: "$11.99 USD",
-                    imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
-                }
+                // {
+                //     id: 2,
+                //     pathImgCard: "https://cdn.akamai.steamstatic.com/steam/apps/975270/header.jpg?t=1626291858",
+                //     nameProduct: "Legion War",
+                //     categories1: "Strategy",
+                //     categories2: "Adventure",
+                //     valutation: 4.1,
+                //     price: "$9.99 USD",
+                //     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
+                // },
+                // {
+                //     id: 3,
+                //     pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
+                //     nameProduct: "Warpips",
+                //     categories1: "Strategy",
+                //     categories2: "Tower Defence",
+                //     valutation: 4.5,
+                //     price: "$11.99 USD",
+                //     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
+                // },
+                // {
+                //     id: 4,
+                //     pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
+                //     nameProduct: "Warpips",
+                //     categories1: "Strategy",
+                //     categories2: "Tower Defence",
+                //     valutation: 4.5,
+                //     price: "$11.99 USD",
+                //     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
+                // },
+                // {
+                //     id: 5,
+                //     pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
+                //     nameProduct: "Warpips",
+                //     categories1: "Strategy",
+                //     categories2: "Tower Defence",
+                //     valutation: 4.5,
+                //     price: "$11.99 USD",
+                //     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
+                // },
+                // {
+                //     id: 6,
+                //     pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
+                //     nameProduct: "Warpips",
+                //     categories1: "Strategy",
+                //     categories2: "Tower Defence",
+                //     valutation: 4.5,
+                //     price: "$11.99 USD",
+                //     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
+                // },
+                // {
+                //     id: 7,
+                //     pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
+                //     nameProduct: "Warpips",
+                //     categories1: "Strategy",
+                //     categories2: "Tower Defence",
+                //     valutation: 4.5,
+                //     price: "$11.99 USD",
+                //     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
+                // },
+                // {
+                //     id: 8,
+                //     pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
+                //     nameProduct: "Warpips",
+                //     categories1: "Strategy",
+                //     categories2: "Tower Defence",
+                //     valutation: 4.5,
+                //     price: "$11.99 USD",
+                //     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
+                // },
+                // {
+                //     id: 9,
+                //     pathImgCard: "https://steamcdn-a.akamaihd.net/steam/apps/1291010/header.jpg",
+                //     nameProduct: "Warpips",
+                //     categories1: "Strategy",
+                //     categories2: "Tower Defence",
+                //     valutation: 4.5,
+                //     price: "$11.99 USD",
+                //     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
+                // }
             ]
         }
     }
