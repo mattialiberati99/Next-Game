@@ -1,12 +1,12 @@
 <template>
     <NuxtLink :to="to" style="width:calc(100% - 10px);">
-        <div class="flex flex-row items-center buttonHeader" v-bind:class="isActive ? 'active' : ''">
-            <img v-if="!isActive" v-bind:src="'/icons/'+to+'.svg'" class="icon" >
-            <img v-else v-bind:src="'/icons/'+to+'Solid.svg'" class="icon">
+        <div class="flex flex-row items-center w-full p-2 h-auto rounded-r-3xl buttonHeader" v-bind:class="isActive ? 'active' : ''">
+            <img v-if="!isActive" v-bind:src="'/icons/'+to+'.svg'" class="icon w-6 h-6" >
+            <img v-else v-bind:src="'/icons/'+to+'Solid.svg'" class="icon w-6 h-6">
 
-            <h1 class="text">{{ name }}</h1>
-            <div v-if="notification" class="notification flex justify-center items-center">
-                <h4>{{ notification > 99 ? 99 : notification }}</h4>
+            <h1 class="text w-1/4 font-semibold text-sm leading-5">{{ name }}</h1>
+            <div v-if="notification" class="notification flex justify-center items-center w-5 h-5 rounded-full p-px">
+                <h4 class="font-semibold text-xs leading-3">{{ notification > 99 ? 99 : notification }}</h4>
             </div>
         </div>
     </NuxtLink>
@@ -14,11 +14,6 @@
 
 <style>
 .buttonHeader {
-    height: auto;
-    width: 100%;
-    padding: 8px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
     transition: background-color 0.4s;
 }
 
@@ -47,8 +42,6 @@
 }
 
 .buttonHeader .icon {
-    width: 24px;
-    height: 24px;
    
     margin-left: 25px;/*+8*/ 
     margin-right: 20px;
@@ -65,26 +58,14 @@
 }
 
 .buttonHeader .text {
-    width: 23%;
-    
     color: var(--light6);
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 19px;
 }
 
 .buttonHeader .notification {
-    width: 18px;
-    height: 18px;
-    padding: 1px;
-    border-radius: 100%;
     background-color: var(--light1);
 }
 
 .buttonHeader .notification h4 {
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 13px;
     color: var(--light4);
 }
 </style>

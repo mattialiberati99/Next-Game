@@ -1,11 +1,12 @@
 <template>
+
     <div class="SectionLogo">
-        <div :class="active ? 'active hamburger-menu' : 'hamburger-menu'" @click="active = !active">
+        <div :class="active ? 'active hamburger-menu w-6 flex justify-between flex-col flex-wrap' : 'hamburger-menu w-6 flex justify-between flex-col flex-wrap'" @click="active = !active">
             <div class="bar top"></div>
             <div class="bar middle"></div>
             <div class="bar bottom"></div>
         </div>
-        <svg width="98" height="53" viewBox="0 0 118 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="98" height="53" viewBox="0 0 118 43" fill="none" xmlns="http://www.w3.org/2000/svg" class="flex justify-center items-center">
             <path
                 d="M84.5801 14.0144H90.4988V31.9448C90.4988 33.5792 89.1739 34.9041 87.5395 34.9041V34.9041C85.905 34.9041 84.5801 33.5792 84.5801 31.9448V14.0144Z"
                 fill="#333333" />
@@ -77,27 +78,12 @@ export default {
     align-items: center;
 }
 
-.SectionLogo .icon {
-    width: 24px;
-    height: 24px;
-    border-radius: 100%;
-    background-color: var(--light6);
-    margin-right: auto;
-}
-
 .SectionLogo svg {
     margin-right: 38px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .hamburger-menu {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    height: 24px;
-    width: 24px;
+
     margin-right: auto;
     margin-left: calc(25px + 8px);
     cursor: pointer;
