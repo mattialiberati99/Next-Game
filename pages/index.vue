@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ContainerCard />
+    <LoginPage />
   </div>
 </template>
 
