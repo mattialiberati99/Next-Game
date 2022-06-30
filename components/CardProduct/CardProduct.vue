@@ -1,11 +1,11 @@
 <template>
-    <div class="rounded-3xl h-75 w-64 p-3 bg-gray-50 mt-5 mr-2">
+    <div class="rounded-3xl h-75 w-64 p-3 mt-5 mr-2 bg-white">
         <img class="w-full rounded-3xl w-60 h-48 object-cover" :src="item.pathImgCard" alt="Sunset in the mountains" />
         <div class="px-6 py-4">
           <h2 class="font-bold text-l">{{item.nameProduct}}</h2>
           <div class="flex text-sm container-categories items-center">
             <p>{{item.categories1}}</p>
-            <span class="dot block rounded-full w-1 h-1"></span>
+            <span class="dot rounded-full w-1 h-1 mr-2 ml-2"></span>
             <p>{{item.categories2}}</p>
           </div>
           <div class="flex text-sm container-price items-center mt-1 mb-1">
@@ -41,9 +41,12 @@ export default {
 <style>
 
 .container-categories,
-.container-price,
-.dot {
+.container-price {
     color: #767676;
+}
+
+.dot {
+  background: #767676;
 }
 
 .price,

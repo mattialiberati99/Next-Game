@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap justify-start">
+  <div class="container flex flex-wrap justify-start">
       <CardProduct v-for="card in cards" v-bind:item="card" :key="card.id"/>
   </div>
 </template>
