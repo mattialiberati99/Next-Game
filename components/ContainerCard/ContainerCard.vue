@@ -1,8 +1,9 @@
 <template>
-  <div class="container-card">
+  <div class="container flex flex-wrap justify-start">
       <CardProduct v-for="card in cards" v-bind:item="card" :key="card.id"/>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -26,7 +27,7 @@ export default {
                     categories1: "Strategy",
                     categories2: "Adventure",
                     valutation: 4.1,
-                    price: "$9.99 USD",
+                    price: "$9.99",
                     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
                 },
                 {
@@ -36,7 +37,7 @@ export default {
                     categories1: "Strategy",
                     categories2: "Tower Defence",
                     valutation: 4.5,
-                    price: "$11.99 USD",
+                    price: "$11.99",
                     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
                 },
                 {
@@ -46,7 +47,7 @@ export default {
                     categories1: "Strategy",
                     categories2: "Tower Defence",
                     valutation: 4.5,
-                    price: "$11.99 USD",
+                    price: "$11.99",
                     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
                 },
                 {
@@ -56,7 +57,7 @@ export default {
                     categories1: "Strategy",
                     categories2: "Tower Defence",
                     valutation: 4.5,
-                    price: "$11.99 USD",
+                    price: "$11.99",
                     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
                 },
                 {
@@ -66,7 +67,7 @@ export default {
                     categories1: "Strategy",
                     categories2: "Tower Defence",
                     valutation: 4.5,
-                    price: "$11.99 USD",
+                    price: "$11.99",
                     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
                 },
                 {
@@ -76,7 +77,7 @@ export default {
                     categories1: "Strategy",
                     categories2: "Tower Defence",
                     valutation: 4.5,
-                    price: "$11.99 USD",
+                    price: "$11.99",
                     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
                 },
                 {
@@ -86,7 +87,7 @@ export default {
                     categories1: "Strategy",
                     categories2: "Tower Defence",
                     valutation: 4.5,
-                    price: "$11.99 USD",
+                    price: "$11.99",
                     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
                 },
                 {
@@ -96,7 +97,7 @@ export default {
                     categories1: "Strategy",
                     categories2: "Tower Defence",
                     valutation: 4.5,
-                    price: "$11.99 USD",
+                    price: "$11.99",
                     imgUser: "https://www.w3schools.com/w3css/img_avatar3.png"
                 }
             ]
@@ -106,11 +107,5 @@ export default {
 </script>
             
 <style>
-
-.container-card {     
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
 </style>
