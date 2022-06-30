@@ -1,6 +1,6 @@
 <template>
   <div class="container-LoginPage h-screen flex">
-    <div class="">
+    <div>
         <img class="h-10" src="../../assets/icons/Logo.png" alt="">
     </div>
     <div class="w-144 h-158 bg-white rounded-3xl">
