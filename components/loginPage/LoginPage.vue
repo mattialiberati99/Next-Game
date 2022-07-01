@@ -5,9 +5,9 @@
     </div>
     <div class="form bg-white rounded-3xl p-10 mb-10 mt-20">
       <div class="flex justify-center pt-2">
-        <img class="h-14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png" alt="logo google">
-        <img class="h-14 ml-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png" alt="logo google">
-        <img class="h-14 ml-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png" alt="logo google">
+        <a href="#"><img class="h-14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png" alt="logo google"></a>
+        <a href="#"><img class="h-14 ml-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png" alt="logo google"></a>
+        <a href="#"><img class="h-14 ml-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png" alt="logo google"></a>
       </div>
       <div class="text-center mt-6">
         <p class="enterWithEmail">Or with Email</p>
