@@ -17,21 +17,20 @@
           <hr class="h-0.5 flex-1 mx-4">
         </div>
         <form>
+          <input class="block rounded-2xl h-16 w-full mt-6 p-4 mb-6 focus:outline-none" type="email" placeholder="Email">
           <input class="block rounded-2xl h-16 w-full mt-6 p-4 mb-6 focus:outline-none" type="text" placeholder="Username">
           <input class="block rounded-2xl h-16 w-full mb-6 p-6 focus:outline-none" type="password" placeholder="Password">
-          <button class="buttonForm w-full rounded-2xl h-16">Log In</button>
+          <button class="buttonForm w-full rounded-2xl h-16">Register</button>
         </form>
-        <p class="passwordForgotten mt-6 mb-8">Forgotten password?</p>
         <hr>
         <div class="flex justify-center mt-10">
-          <p class="newAccount mr-2">Don't have an account?</p>
-          <p class="register"><a href="#">Register</a></p>
+          <p class="newAccount mr-2">Already have an account?</p>
+          <p class="register"><a href="#">Log In</a></p>
         </div>
       </div>
     </div>
   </div>
 </template>
-
 <script>
 export default {
     data(){
