@@ -1,16 +1,21 @@
 <template>
-  <div class="container-LoginPage h-1000 flex justify-evenly">
-    <div class="flex items-center">
-        <img class="h-12" src="../../assets/icons/Logo.png" alt="logo">
+  <div class="container-LoginPage flex justify-evenly">
+    <div class="flex flex-col justify-center">
+        <img class="h-16" src="../../assets/icons/Logo.png" alt="logo">
+        <h3 class="text-white">Join ULT now and play mighty <br>games!</h3>
     </div>
-    <div class="conteinerForm bg-white rounded-3xl p-10 mb-10 mt-20 h-2/4">
+    <div class="conteinerForm bg-white rounded-3xl p-10 mb-10 mt-20 h-2/4 max-w-2xl w-full">
       <div class="flex justify-center pt-2">
         <a href="#"><img class="h-14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png" alt="logo google"></a>
         <a href="#"><img class="h-14 ml-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png" alt="logo google"></a>
         <a href="#"><img class="h-14 ml-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png" alt="logo google"></a>
       </div>
       <div class="text-center mt-6">
-        <p class="enterWithEmail">Or with Email</p>
+        <div class="flex items-center">
+          <hr class="h-0.5 flex-1 mx-4">
+          <p class="enterWithEmail">or with Email</p>
+          <hr class="h-0.5 flex-1 mx-4">
+        </div>
         <form>
           <input class="block rounded-2xl h-16 w-full mt-6 p-4 mb-6 focus:outline-none" type="text" placeholder="Username">
           <input class="block rounded-2xl h-16 w-full mb-6 p-6 focus:outline-none" type="password" placeholder="Password">
@@ -43,8 +48,8 @@ export default {
     background: linear-gradient(90deg, rgba(10,10,10,0.9459459459459459) 0%, rgba(0,0,0,0.38264580369843526) 100%);
 }
 
-.conteinerForm {
-  width: 634.9px;
+hr {
+  background-color: #E9E9E9;
 }
 
 form input {
