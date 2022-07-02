@@ -1,15 +1,15 @@
 <template>
-  <div class="container flex flex-wrap justify-start">
-      <CardProduct v-for="card in cards" v-bind:item="card" :key="card.id"/>
-  </div>
+    <div class="containerCard flex flex-wrap justify-start">
+        <CardProduct v-for="card in cards" v-bind:item="card" :key="card.id" />
+    </div>
 </template>
 
 
 <script>
 export default {
-    data(){
-        return{
-          cards: [
+    data() {
+        return {
+            cards: [
                 {
                     id: 1,
                     pathImgCard: "https://cdn-www.bluestacks.com/bs-images/Featured_com.gtarcade.ioe_.global.jpg",
@@ -105,7 +105,3 @@ export default {
     }
 }
 </script>
-            
-<style>
-
-</style>
