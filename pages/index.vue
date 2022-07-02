@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <RegisterPage />
-  </div>
+  <GameStore />
 </template>
 
 <script>
